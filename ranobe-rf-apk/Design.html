@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Дизайн мобильного приложения Ранобэ.рф</title>
+    <link rel="shortcut icon" href="https://dubostorage001.github.io/Resources.fol/33.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="Ranobe.css" />
+    <script>
+        //Копирование строки в буфер обмена.
+        function TextCopy(URLtext) {
+            var copytext = document.createElement('input')
+            copytext.value = URLtext
+            document.body.appendChild(copytext)
+            copytext.select()
+            document.execCommand('copy')
+            document.body.removeChild(copytext)
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="NameText">Страницы макета</h1>
+    <table class="MaketInfo">
+        <tr>
+            <td class="MaketImage">
+                <a href="MainPage.png" target="_blank"><img src="MainPage.png"></a>
+            </td>
+            <td class="MaketAccount">
+                <p style="text-indent: 0;">Click on E-mail or password to copy it or click on picture to open it in new tab!</p>
+                <br>
+                <p class="mail">E-mail: <span class="Green" onclick="TextCopy('milosta.vlad@gmail.com')">milosta.vlad@gmail.com</span></p>
+                <p class="password">Password: <span class="Pink" onclick="TextCopy('vlad1401')">vlad1401</span></p>
+                <br>
+                <p class="mail">Comment: <span class="White">Авторизация через кнопку Google.</span></p>
+                <br>
+                <a href="https://app.moqups.com/login" target="_blank">Click to go on Moqups.com</a>
+            </td>
+            <td class="MaketDescription">
+                <h2 class="NameText">Главная страница</h2>
+                <p>Кнопка "Вид" имеет функционал, аналогичный таковому на сайте Ранобэ.рф.</p>
+                <p>Нижнее меню состоит из пяти кнопок слева направо: "Главная" - собственно наблюдаемая страница, "Поиск" - осуществляет поиск по книгам, "Личный кабинет" - если пользователь не авторизован, то показывает иконку человечка, иначе иконку пользователя (ведёт к соответствующему разделу), "Уведомления" - отображают количество новых уведомлений или ничего, если таковых нет, "Закладки" - отправляют на страницу закладок.</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+
+:root {
+    --color-middle-dark: RGB(48, 58, 76);
+    --color-light-dark: RGB(61, 71, 90); 
+    --color-dark: #252b37;
+    --color-top-dark: #11141a;
+    --color-yellow: RGB(240, 163, 16);
+    --color-orange: RGB(260, 163, 16);
+    --color-dark-orange: RGB(204, 128, 6);
+    --color-grey: RGB(117, 130, 155);
+    --color-read-grey: RGB(41, 47, 60);
+}
+
+body {
+    margin: 0;
+    background: var(--color-top-dark);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1.NameText {
+    margin: 0;
+    text-align: center;
+    color: var(--color-dark-orange);
+    font-style: bold;
+}
+
+table.MaketInfo {
+    width: 100%;
+    margin: 0;
+    background-color: var(--color-dark);
+}
+
+td.MaketImage {
+    width: 20%;
+    border: 2px var(--color-grey) solid;
+}
+
+td.MaketAccount {
+    width: 15%;
+    border: 2px var(--color-grey) solid;
+    vertical-align: top;
+    padding: 5px;
+}
+
+td.MaketDescription {
+    width: 65%;
+    border: 2px var(--color-grey) solid;
+    vertical-align: top;
+    padding: 5px;
+}
+
+p.mail {
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    text-indent: 0
+}
+
+p.password {
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    text-indent: 0;
+}
+
+span.Green {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+span.Pink {
+    color: pink;
+    cursor: pointer;
+}
+
+span.White {
+    color: white;
+}
+
+p {
+    text-indent: 32px;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: paleturquoise;
+}
+
+h2.NameText {
+    text-indent: 32px;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: white;
+    text-align: justify;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
